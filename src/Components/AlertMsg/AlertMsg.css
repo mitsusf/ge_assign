@@ -1,0 +1,16 @@
+.notification__alert {
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    background-color: #ffffff;
+    width: 600px;
+    padding: 20px;
+    max-width: 50vw;
+    border-radius: 20px;
+    box-shadow: 0px 18px 53px 0px rgba(0,0,0,0.3);
+}
+
+.notification__alert__container {
+
+    margin-top: 10vh;
+}

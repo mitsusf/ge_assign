@@ -1,0 +1,53 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.page__alert {
+    padding: 20px;
+    margin-top: 10px;
+    width: 430px
+}
+
+.page__text{
+    text-align: center;
+    max-width: 400px;
+    color: rgb(38, 38, 46);
+}
+
+.page__title{
+    text-align: center;
+    padding: 15px;
+    max-width: 400px;
+    border: 4px solid rgba(11, 99, 70, 0.411);
+}
+
+.page__control{
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 350px) {
+    .page__alert {
+        padding: 10px;
+        margin-top: 10px;
+        width: 290px
+    }
+
+    .page__text{
+        text-align: center;
+        max-width: 280px;
+        color: rgb(38, 38, 46);
+    }
+
+    .page__title{
+        padding: 5px;
+        border: 2px solid rgba(11, 99, 70, 0.411);
+    }
+
+}
